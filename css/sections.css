@@ -1,0 +1,580 @@
+
+
+
+
+/* ########################################## css for service2 area  ############################################## */
+
+.service2-area {
+    position: relative;
+    z-index: 1
+}
+
+.service2-area.marketing-service2 .service2-inner-area {
+    margin-top: 90px
+}
+
+.service2-area.software-service2 .single-service2 {
+    position: relative;
+    text-align: left;
+    padding-left: 85px
+}
+
+.service2-area.software-service2 .single-service2 .icon {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 25px
+}
+
+.service2-area.software-service2 .single-service2 h3 {
+    margin-top: 0
+}
+
+.service2-area.book-service2 {
+    background: #f9fafc url(../../../images/bg-point.png) no-repeat fixed right -600px center/auto
+}
+
+.single-service2 {
+    text-align: center;
+    transition: .4s;
+    margin-bottom: 40px
+}
+
+.single-service2 .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #edf5ff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: var(--templateColor);
+    transition: .4s
+}
+
+.single-service2 h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 25px 0 15px
+}
+
+.single-service2:hover {
+    transform: translateY(-10px)
+}
+
+.single-service2:hover .icon {
+    color: var(--whiteColor);
+    background: var(--templateColor2);
+    box-shadow: 0 10px 30px 0 rgba(26, 38, 74, .14)
+}
+
+.single-holder-box {
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 45%);
+    background: var(--whiteColor);
+    text-align: center;
+    border-radius: 5px;
+    /* padding: 30px; */
+    padding: 11px;
+    transition: .4s
+}
+
+.single-holder-box h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px
+}
+
+.single-holder-box img {
+    /* width: 120px; */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.single-holder-box:hover {
+    transform: translateY(-7px)
+}
+
+.single-holder-box.mt-30 {
+    margin-top: 30px
+}
+
+.single-holder-box.mt-50 {
+    margin-top: 50px
+}
+
+.service2-holder-content .section-title {
+    text-align: left;
+    margin-bottom: 15px
+}
+
+.service2-holder-content .bar,
+.service2-holder-content p {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.service2-holder-content p {
+    margin-bottom: 0;
+    margin-bottom: 25px
+}
+
+.single-service2-box {
+    margin-bottom: 30px;
+    padding: 30px;
+    background: var(--whiteColor);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, .08);
+    border-radius: 3px;
+    transition: .4s
+}
+
+.single-service2-box .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #edf5ff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: var(--templateColor);
+    transition: .4s
+}
+
+.single-service2-box h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 25px 0 15px
+}
+
+.single-service2-box:hover {
+    transform: translateY(-10px)
+}
+
+.single-service2-box:hover .icon {
+    color: var(--whiteColor);
+    background: var(--templateColor2)
+}
+
+.service2-inner-area {
+    margin-top: 60px
+}
+
+.service2-inner-area .service2-inner-content {
+    max-width: 540px
+}
+
+.service2-inner-area .service2-inner-content .service2-item {
+    margin-bottom: 35px;
+    position: relative;
+    padding-left: 90px;
+    transition: .4s
+}
+
+.service2-inner-area .service2-inner-content .service2-item:last-child {
+    margin-bottom: 0
+}
+
+.service2-inner-area .service2-inner-content .service2-item .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    background: var(--whiteColor);
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    color: var(--templateColor);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
+    transition: .4s
+}
+
+.service2-inner-area .service2-inner-content .service2-item h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 15px
+}
+
+.service2-inner-area .service2-inner-content .service2-item:hover {
+    transform: translateY(-10px)
+}
+
+.service2-inner-area .service2-inner-content .service2-item:hover .icon {
+    color: var(--whiteColor);
+    background: var(--templateColor2)
+}
+
+.new-service2-area {
+    position: relative;
+    z-index: 1;
+    background-image: url(../../../images/cta-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+}
+
+.new-service2-area:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--templateColor);
+    opacity: .87
+}
+
+.new-service2-content .section-title {
+    text-align: left;
+    margin-bottom: 45px
+}
+
+.new-service2-content .section-title h2 {
+    color: var(--whiteColor)
+}
+
+.new-service2-content .section-title .bar {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: var(--whiteColor)
+}
+
+.new-service2-content .section-title .bar:before {
+    background: var(--templateColor)
+}
+
+.new-service2-content .single-inner-service2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 45px
+}
+
+.new-service2-content .single-inner-service2:last-child {
+    margin-bottom: 0
+}
+
+.new-service2-content .single-inner-service2 i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    color: var(--whiteColor)
+}
+
+.new-service2-content .single-inner-service2 h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--whiteColor)
+}
+
+.new-service2-content .single-inner-service2 p {
+    color: #f2f2f2
+}
+
+
+/* ######################################## service 2 area ends ######################################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ########################################## css for about area  ############################################## */
+
+.about-area {
+    position: relative;
+    z-index: 1
+}
+
+.about-area.marketing-about .about-inner-area {
+    margin-top: 90px
+}
+
+.about-area.software-about .single-about {
+    position: relative;
+    text-align: left;
+    padding-left: 85px
+}
+
+.about-area.software-about .single-about .icon {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 25px
+}
+
+.about-area.software-about .single-about h3 {
+    margin-top: 0
+}
+
+.about-area.book-about {
+    background: #f9fafc url(../../../images/bg-point.png) no-repeat fixed right -600px center/auto
+}
+
+.single-about {
+    text-align: center;
+    transition: .4s;
+    margin-bottom: 40px
+}
+
+.single-about .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #edf5ff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: var(--templateColor);
+    transition: .4s
+}
+
+.single-about h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 25px 0 15px
+}
+
+.single-about:hover {
+    transform: translateY(-10px)
+}
+
+.single-about:hover .icon {
+    color: var(--whiteColor);
+    background: var(--templateColor2);
+    box-shadow: 0 10px 30px 0 rgba(26, 38, 74, .14)
+}
+
+.single-holder-box {
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, 45%);
+    background: var(--whiteColor);
+    text-align: center;
+    border-radius: 5px;
+    /* padding: 30px; */
+    padding: 11px;
+    transition: .4s
+}
+
+.single-holder-box h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px
+}
+
+.single-holder-box img {
+    /* width: 120px; */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.single-holder-box:hover {
+    transform: translateY(-7px)
+}
+
+.single-holder-box.mt-30 {
+    margin-top: 30px
+}
+
+.single-holder-box.mt-50 {
+    margin-top: 50px
+}
+
+.about-holder-content .section-title {
+    text-align: left;
+    margin-bottom: 15px
+}
+
+.about-holder-content .bar,
+.about-holder-content p {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.about-holder-content p {
+    margin-bottom: 0;
+    margin-bottom: 25px
+}
+
+.single-about-box {
+    margin-bottom: 30px;
+    padding: 30px;
+    background: var(--whiteColor);
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, .08);
+    border-radius: 3px;
+    transition: .4s
+}
+
+.single-about-box .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #edf5ff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: var(--templateColor);
+    transition: .4s
+}
+
+.single-about-box h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 25px 0 15px
+}
+
+.single-about-box:hover {
+    transform: translateY(-10px)
+}
+
+.single-about-box:hover .icon {
+    color: var(--whiteColor);
+    background: var(--templateColor2)
+}
+
+.about-inner-area {
+    margin-top: 60px
+}
+
+.about-inner-area .about-inner-content {
+    max-width: 540px
+}
+
+.about-inner-area .about-inner-content .about-item {
+    margin-bottom: 35px;
+    position: relative;
+    padding-left: 90px;
+    transition: .4s
+}
+
+.about-inner-area .about-inner-content .about-item:last-child {
+    margin-bottom: 0
+}
+
+.about-inner-area .about-inner-content .about-item .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    background: var(--whiteColor);
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    color: var(--templateColor);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1)!important;
+    transition: .4s
+}
+
+.about-inner-area .about-inner-content .about-item h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 0 15px
+}
+
+.about-inner-area .about-inner-content .about-item:hover {
+    transform: translateY(-10px)
+}
+
+.about-inner-area .about-inner-content .about-item:hover .icon {
+    color: var(--whiteColor);
+    background: var(--templateColor2)
+}
+
+.new-about-area {
+    position: relative;
+    z-index: 1;
+    background-image: url(../../../images/cta-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+}
+
+.new-about-area:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--templateColor);
+    opacity: .87
+}
+
+.new-about-content .section-title {
+    text-align: left;
+    margin-bottom: 45px
+}
+
+.new-about-content .section-title h2 {
+    color: var(--whiteColor)
+}
+
+.new-about-content .section-title .bar {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: var(--whiteColor)
+}
+
+.new-about-content .section-title .bar:before {
+    background: var(--templateColor)
+}
+
+.new-about-content .single-inner-about {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 45px
+}
+
+.new-about-content .single-inner-about:last-child {
+    margin-bottom: 0
+}
+
+.new-about-content .single-inner-about i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    color: var(--whiteColor)
+}
+
+.new-about-content .single-inner-about h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--whiteColor)
+}
+
+.new-about-content .single-inner-about p {
+    color: #f2f2f2
+}
+
+
+/* ######################################## Feature area ends ######################################### */

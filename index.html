@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template 1</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/odometer.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="css/allSection.css">
+    <link rel="stylesheet" href="css/sections.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <style>
+        .section-padding {
+            padding: 130px 0;
+        }
+
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* background: #fff; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header-area -->
+    <header class="header-style-two">
+        <div class="header-top-wrap">
+            <div class="container custom-container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="header-top-offer">
+                            <p>Get 30% Discounts! Offer</p>
+                            <span class="coming-time" data-countdown="2021/1/1"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="header-top-right-list">
+                            <ul>
+                                <li><i class="fas fa-headphones"></i><a href="">+202 458 9654</a></li>
+                                <li><i class="far fa-envelope"></i><a href="#">Support</a></li>
+                                <li class="header-shop-cart"><a href="#"><i
+                                            class="fas fa-shopping-basket"></i><span>0</span></a>Cart</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- sticky header -->
+        <div id="sticky-header" class="main-header menu-area transparent-header">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                        <div class="menu-wrap">
+                            <nav class="menu-nav show">
+                                <div class="logo">
+                                    <a href="#" class="main-logo"><img src="img/logo/fw_logo.png" alt=""></a>
+                                    <a href="#" class="sticky-logo"><img src="img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                    <ul class="navigation">
+                                        <li class="active dropdown"><a href="#">Home</a>
+                                            <ul class="submenu">
+                                                <li class="active"><a href="index.html">Home One</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">About</a></li>
+                                        <li class="dropdown"><a href="#">Services</a>
+                                            <ul class="submenu">
+                                                <li><a href="">Cloud Hosting</a></li>
+                                                <li><a href="#">Shared Hosting</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">News</a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Our Blog</a></li>
+                                                <li><a href="#">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">contacts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="header-action d-none d-md-block">
+                                    <ul>
+                                        <li class="header-search"><a href="#" data-toggle="modal"
+                                                data-target="#search-modal"><i class="fas fa-search"></i></a></li>
+                                        <li class="header-btn"><a href="#" class="btn green-btn"><i
+                                                    class="fas fa-unlock-alt"></i> Login</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Mobile Menu  -->
+                        <div class="mobile-menu">
+                            <div class="menu-backdrop"></div>
+                            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+                            <nav class="menu-box">
+                                <div class="nav-logo"><a href="#"><img src="img/logo/w_logo.png" alt="" title=""></a>
+                                </div>
+                                <div class="menu-outer">
+                                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                </div>
+                                <div class="social-links">
+                                    <ul class="clearfix">
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- End Mobile Menu -->
+                        <!-- Modal Search -->
+                        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <form>
+                                        <input type="text" placeholder="Search here...">
+                                        <button><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-area-end -->
+
+
+    <!-- main-area -->
+    <main>
+
+        <!-- banner-area -->
+        <section class="banner-area banner-style-two banner-bg">
+            <div class="container custom-container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-5 col-lg-6 order-0 order-lg-2">
+                        <div class="banner-img wow fadeInRight" data-wow-delay="1s">
+                            <img src="img/banner/banner_img02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 col-md-10">
+                        <div class="banner-content">
+                            <span class="wow fadeInUp" data-wow-delay=".3s">Developer Company</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".6s">Software , App</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".9s">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Porro autem aliquid dolor possimus alias temporibus!</p>
+                            <a href="#" class="btn green-btn wow fadeInUp" data-wow-delay="1s"><span>+</span> discover
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner-area-end -->
+
+        <!-- domain-search-area -->
+        <div class="domain-search-area domain-search-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="domain-search-inner">
+                            <div class="domain-search-form-wrap">
+                                <div class="domain-list">
+                                    <ul>
+                                        <li>.com<span>$6.39</span></li>
+                                        <li>.me<span>$3.49</span></li>
+                                        <li>.net<span>$8.39</span></li>
+                                        <li>.info<span>$6.39</span></li>
+                                        <li>.studio<span>$6.39</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- domain-search-area-end -->
+
+
+        <!-- services-area -->
+        <section class="services-area position-relative pt-100 pb-25">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title text-center mb-100">
+                            <span class="sub-title">We are here for</span>
+                            <h2 class="title">YOUR SERVICES</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row services-item-wrap justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-7">
+                        <div class="services-item mb-70" data-aos="fade-right">
+                            <div class="services-icon">
+                                <i class="fa-solid fa-wrench"></i>
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="#">Dedicated Service</a></h4>
+                                <p>Fully-Managed SSD Shared the Hosting optimal solution for fast reliaunkwn printer
+                                    galley roype.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-7">
+                        <div class="services-item mb-70" data-aos="fade-up">
+                            <div class="services-icon">
+                                <i class="fa-solid fa-key"></i>
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="#">On-Demand Access</a></h4>
+                                <p>Fully-Managed SSD Shared the Hosting optimal solution for fast reliaunkwn printer
+                                    galley roype.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-7">
+                        <div class="services-item mb-70" data-aos="fade-left">
+                            <div class="services-icon">
+                                <i class="fa-solid fa-parachute-box"></i>
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="#">Client Hosting</a></h4>
+                                <p>Fully-Managed SSD Shared the Hosting optimal solution for fast reliaunkwn printer
+                                    galley roype.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="service-line-shape one"></div>
+                    <div class="service-line-shape two"></div>
+                    <div class="service-line-shape three"></div>
+                    <div class="service-line-shape four"></div> -->
+                </div>
+            </div>
+            <div class="service-shape one"><img src="img/images/services_shape01.png" alt=""></div>
+            <div class="service-shape two"><img src="img/images/services_shape02.png" alt=""></div>
+        </section>
+        <!-- services-area-end -->
+
+
+
+
+
+
+
+        <!-- About start -->
+        <section class="about-area marketing-about pt-100 pb-100">
+            <div class="container">
+
+                <div class="row h-100 justify-content-center align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-holder-box mt-100"><img src="img/blog-img1.jpg" alt="image" />
+                                    <h3>Competitor Analysis</h3>
+                                    <p>Duis hendrerit eget dolor non lora pulvinar. In conse.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-holder-box mb-100"><img src="img/blog-img1.jpg" alt="image" />
+                                    <h3>PPC Marketing</h3>
+                                    <p>Duis hendrerit eget dolor non lora pulvinar. In conse.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="about-holder-content">
+                            <div class="section-title">
+                                <h2>We are here to Make Best Product</h2>
+                                <div class="bar"></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                            <p>We’re also experts at finding the sweet spot between Google’s guidelines and what is
+                                commercially right for you. We have progressive theories on search as a tool for
+                                retention of customers, not just for acquisition. we always
+                                measure, always analyze and always innovate.</p>
+                            <a class="btn btn-primary" href="#">Our Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="features-inner-area">
+                <div class="container">
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="features-inner-content">
+                                <div class="features-item">
+                                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                    <h3>Free Calling Service</h3>
+                                    <p>Plan by the day, week, or month, and see project status at a glance. Search and filter to focus on anything from a single project to a person&#x27;s workload.
+                                    </p>
+                                </div>
+                                <div class="features-item">
+                                    <div class="icon"><i class="fa-solid fa-gift"></i></div>
+                                    <h3>Daily Free Gift</h3>
+                                    <p>Plan by the day, week, or month, and see project status at a glance. Search and filter to focus on anything from a single project to a person&#x27;s workload.
+                                    </p>
+                                </div>
+                                <div class="features-item">
+                                    <div class="icon"><i class="fa-solid fa-qrcode"></i></div>
+                                    <h3>QR Code Scanner</h3>
+                                    <p>Plan by the day, week, or month, and see project status at a glance. Search and filter to focus on anything from a single project to a person&#x27;s workload.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="features-image"><img src="images/features-img1.png" alt="image" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="shape7"><img src="images/shape7.png" alt="shape" /></div>
+            <div class="shape3"><img src="images/shape3.png" alt="img" /></div>
+            <div class="bg-gray shape-1"></div>
+            <div class="shape6"><img src="images/shape6.png" alt="img" /></div>
+            <div class="shape8 rotateme"><img src="https://mojosa-react.envytheme.com/images/shape8.svg" alt="shape" />
+            </div>
+            <div class="shape9"><img src="https://mojosa-react.envytheme.com/images/shape9.svg" alt="shape" /></div>
+            <div class="shape10"><img src="https://mojosa-react.envytheme.com/images/shape10.svg" alt="shape" /></div>
+            <div class="shape11 rotateme"><img src="https://mojosa-react.envytheme.com/images/shape11.svg" alt="shape" /></div> -->
+
+        </section>
+        <!-- About ends -->
+
+
+
+
+
+
+
+
+        <!-- Services Section -->
+        <section class="services-area ptb-100 bg-gray bg-lite-gray ">
+            <div class="container p-t-50">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title title-style-two text-center mb-60">
+                            <span class="sub-title">our services</span>
+                            <h2 class="title">Lorem, ipsum.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, possimus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-services">
+                            <div class="icon"><i class="fa-solid fa-lightbulb"></i></div>
+                            <h3>Search Strategy</h3>
+                            <p>Well at public school cheeky bugger grub burke.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-services">
+                            <div class="icon"><i class="fa-brands fa-searchengin"></i></div>
+                            <h3>Onsite SEO</h3>
+                            <p>Well at public school cheeky bugger grub burke.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-services">
+                            <div class="icon"><i class="fa-solid fa-hand-point-up"></i></div>
+                            <h3>Keyword Targeting</h3>
+                            <p>Well at public school cheeky bugger grub burke.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-services">
+                            <div class="icon"><i class="fa-solid fa-chart-pie"></i></i>
+                            </div>
+                            <h3>Link Building</h3>
+                            <p>Well at public school cheeky bugger grub burke.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-services">
+                            <div class="icon"><i class="fa-solid fa-timeline"></i></div>
+                            <h3>CPA Marketing</h3>
+                            <p>Well at public school cheeky bugger grub burke.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-services">
+                            <div class="icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                            <h3>Report Analysis</h3>
+                            <p>Well at public school cheeky bugger grub burke.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service section ends -->
+
+
+
+
+
+        <!-- pricing area -->
+        <section class="price-area pt-100 pb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title title-style-two text-center mb-60">
+                            <span class="sub-title">Best Hosting</span>
+                            <h2 class="title">Hosting for Website</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-8">
+                        <div class="pricing-item text-center mb-40">
+                            <div class="pricing-icon mb-25">
+                                <img src="img/icon/hosting_pricing_icon01.png" alt="">
+                            </div>
+                            <div class="pricing-title mb-15">
+                                <h3>Shared Hosting</h3>
+                            </div>
+                            <div class="price-wrap pricing-amount">
+                                <span>Start From</span>
+                                <h2 class="annual_price"><span class="dollar">$</span>9.69<span
+                                        class="duration">p/mo</span></h2>
+                                <h2 class="monthly_price"><span class="dollar">$</span>19.69<span
+                                        class="duration">p/mo</span></h2>
+                            </div>
+                            <div class="pricing-content">
+                                <p>Fully-Managed SSD Shared Hosting optimal solution for fast reliabunkwn printer galley
+                                    of type scrambled.</p>
+                            </div>
+                            <div class="pricing-btn">
+                                <a href="#" class="btn green-btn">Sign Up Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-8">
+                        <div class="pricing-item active text-center mb-40"
+                            data-background="img/images/hosting_pricing_box_bg.jpg">
+                            <div class="pricing-icon mb-25">
+                                <img src="img/icon/hosting_pricing_icon02.png" alt="">
+                            </div>
+                            <div class="pricing-title mb-15">
+                                <h3>VPS Hosting</h3>
+                            </div>
+                            <div class="price-wrap pricing-amount">
+                                <span>Start From</span>
+                                <h2 class="annual_price"><span class="dollar">$</span>19.99<span
+                                        class="duration">p/mo</span></h2>
+                                <h2 class="monthly_price"><span class="dollar">$</span>29.99<span
+                                        class="duration">p/mo</span></h2>
+                            </div>
+                            <div class="pricing-content">
+                                <p>Fully-Managed SSD Shared Hosting optimal solution for fast reliabunkwn printer galley
+                                    of type scrambled.</p>
+                            </div>
+                            <div class="pricing-btn">
+                                <a href="#" class="btn green-btn">Sign Up Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-8">
+                        <div class="pricing-item text-center mb-40">
+                            <div class="pricing-icon mb-25">
+                                <img src="img/icon/hosting_pricing_icon03.png" alt="">
+                            </div>
+                            <div class="pricing-title mb-15">
+                                <h3>Cloud Hosting</h3>
+                            </div>
+                            <div class="price-wrap pricing-amount">
+                                <span>Start From</span>
+                                <h2 class="annual_price"><span class="dollar">$</span>3.99<span
+                                        class="duration">p/mo</span></h2>
+                                <h2 class="monthly_price"><span class="dollar">$</span>5.99<span
+                                        class="duration">p/mo</span></h2>
+                            </div>
+                            <div class="pricing-content">
+                                <p>Fully-Managed SSD Shared Hosting optimal solution for fast reliabunkwn printer galley
+                                    of type scrambled.</p>
+                            </div>
+                            <div class="pricing-btn">
+                                <a href="#" class="btn green-btn">Sign Up Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <nav class="pricing-tab">
+                    <span class="tab-btn monthly_tab_title">Monthly plan</span>
+                    <span class="pricing-tab-switcher"></span>
+                    <span class="tab-btn annual_tab_title">Yearly plan</span>
+                </nav> -->
+            </div>
+        </section>
+        <!-- price-area-end -->
+
+
+
+
+        <!-- <section class="our-service">
+            <div class="container p-td-30">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                <div class="single_choose mrb40">
+                                    <i class="fa-solid fa-gamepad"></i>
+                                    <h3>Activities</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique
+                                        deserunt veritatis placeat itaque</p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                <div class="single_choose mrb40">
+                                    <i class="fa-solid fa-car"></i>
+                                    <h3>Travel Arrangements</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique
+                                        deserunt veritatis placeat itaque</p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                <div class="single_choose">
+                                    <i class="fa-solid fa-person"></i>
+                                    <h3>Private Guide</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique
+                                        deserunt veritatis placeat itaque</p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                <div class="single_choose">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <h3>Location Manager</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga veniam similique
+                                        deserunt veritatis placeat itaque</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-12">
+                        <div class="choose_img ">
+                            <img class="w-100 br-10" src="https://getmasum.com/html-preview/nour/assets/img/choose.jpg"
+                                alt="Choose Image">
+                           
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>  -->
+
+
+
+
+
+
+
+        <!-- news-area -->
+        <section class="news es-bg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section-title white-title text-center mb-70">
+                            <span class="sub-title">here</span>
+                            <h2 class="title">Our latest news</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                    
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="services-item news-item mb-30">
+                                    <div class="services-icon">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div class="services-content">
+                                        <h4><a href="#">24/7 Expert Support</a></h4>
+                                        <p>Everything you need WordPress is Super
+                                            powered Hosting, 24/7 Live Support
+                                            Management tools</p>
+                                        <a href="#" class="btn">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="services-item news-item mb-30">
+                                    <div class="services-icon">
+                                        <i class="fa-solid fa-money-check"></i>
+                                    </div>
+                                    <div class="services-content">
+                                        <h4><a href="#">Money-back Guarantee</a></h4>
+                                        <p>Everything you need WordPress is Super
+                                            powered Hosting, 24/7 Live Support
+                                            Management tools</p>
+                                        <a href="#" class="btn">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="services-item news-item mb-30">
+                                    <div class="services-icon">
+                                        <i class="fa-solid fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="services-content">
+                                        <h4><a href="#">100% Uptime Guaranteed</a></h4>
+                                        <p>Everything you need WordPress is Super
+                                            powered Hosting, 24/7 Live Support
+                                            Management tools</p>
+                                        <a href="#" class="btn">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="services-item news-item mb-30">
+                                    <div class="services-icon">
+                                        <i class="fa-solid fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="services-content">
+                                        <h4><a href="#">100% Uptime Guaranteed</a></h4>
+                                        <p>Everything you need WordPress is Super
+                                            powered Hosting, 24/7 Live Support
+                                            Management tools</p>
+                                        <a href="#" class="btn">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            </div>
+            <div class="news-shape"><img src="img/images/services_circle_shape.png" alt=""></div>
+        </section>
+        <!-- news-area-end -->
+
+
+
+
+
+        <section class="service2-area marketing-service2 pt-100 pb-100">
+            <div class="container">
+
+                <div class="row h-100 justify-content-center align-items-center mt-150">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-holder-box" data-aos="fade-right"><img src="img/blog-img1.jpg" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="service2-holder-content" data-aos="fade-left">
+                            <div class="section-title">
+                                <h2>We are here to Make Best Product</h2>
+                                <div class="bar"></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                            <p>We’re also experts at finding the sweet spot between Google’s guidelines and what is
+                                commercially right for you. We have progressive theories on search as a tool for
+                                retention of customers, not just for acquisition. we always
+                                measure, always analyze and always innovate.</p>
+                            <a class="btn btn-primary" href="#">Our Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row h-100 justify-content-center align-items-center mt-150">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="service2-holder-content" data-aos="fade-right">
+                            <div class="section-title">
+                                <h2>We are here to Make Best Product</h2>
+                                <div class="bar"></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                            <p>We’re also experts at finding the sweet spot between Google’s guidelines and what is
+                                commercially right for you. We have progressive theories on search as a tool for
+                                retention of customers, not just for acquisition. we always
+                                measure, always analyze and always innovate.</p>
+                            <a class="btn btn-primary" href="#">Our Services</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-holder-box" data-aos="fade-left"><img src="img/blog-img1.jpg" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row h-100 justify-content-center align-items-center mt-150">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="single-holder-box" data-aos="fade-right"><img src="img/blog-img1.jpg" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="service2-holder-content" data-aos="fade-left">
+                            <div class="section-title">
+                                <h2>We are here to Make Best Product</h2>
+                                <div class="bar"></div>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form.</p>
+                            </div>
+                            <p>We’re also experts at finding the sweet spot between Google’s guidelines and what is
+                                commercially right for you. We have progressive theories on search as a tool for
+                                retention of customers, not just for acquisition. we always
+                                measure, always analyze and always innovate.</p>
+                            <a class="btn btn-primary" href="#">Our Services</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="pt-100 pb-100">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <article class="card">
+                            <img class="card__background" src="img/blog-img1.jpg"
+                                alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                                width="1920" height="2193" />
+                            <div class="card__content | flow">
+                                <div class="card__content--container | flow">
+                                    <h2 class="card__title">Colombia</h2>
+                                    <p class="card__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                                        labore laudantium deserunt fugiat numquam.
+                                    </p>
+                                </div>
+                                <button class="card__button">Read more</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <article class="card">
+                            <img class="card__background" src="img/blog-img1.jpg"
+                                alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                                width="1920" height="2193" />
+                            <div class="card__content | flow">
+                                <div class="card__content--container | flow">
+                                    <h2 class="card__title">Colombia</h2>
+                                    <p class="card__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                                        labore laudantium deserunt fugiat numquam.
+                                    </p>
+                                </div>
+                                <button class="card__button">Read more</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <article class="card">
+                            <img class="card__background" src="img/blog-img1.jpg"
+                                alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                                width="1920" height="2193" />
+                            <div class="card__content | flow">
+                                <div class="card__content--container | flow">
+                                    <h2 class="card__title">Colombia</h2>
+                                    <p class="card__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                                        labore laudantium deserunt fugiat numquam.
+                                    </p>
+                                </div>
+                                <button class="card__button">Read more</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="contact-area pt-100 pb-100" data-background="img/bg/contact_bg.jpg" style="background-image: url(&quot;img/bg/contact_bg.jpg&quot;);">
+                <div class="container">
+                    <div class="contact-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="contact-info-wrap" data-background="img/bg/contact_info_bg.jpg" style="background-image: url(&quot;img/bg/contact_info_bg.jpg&quot;);">
+                                    <h4 class="title">Contact Info</h4>
+                                    <div class="contact-info-list">
+                                        <ul>
+                                            <li>
+                                                <div class="icon">
+                                                    <i class="fas fa-map-marker-alt"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Find Location</h5>
+                                                    <span>Walking Park, Angeles, NY</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <i class="far fa-envelope"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Our Mail</h5>
+                                                    <span>information@info.com</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <i class="fas fa-phone"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <h5>Contact Number</h5>
+                                                    <span>+02 5458 6598 523</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="contact-info-bottom mt-30">
+                                        <!-- <a href="#" class="btn">Get free Quote</a> -->
+                                        <ul class="contact-social">
+                                            <li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#" class="tw"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" class="pin"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" class="lik"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="contact-form-wrap">
+                                    <div class="section-title text-left mb-40">
+                                        <span class="sub-title">contact us</span>
+                                        <h2 class="title">Leave a Message</h2>
+                                    </div>
+                                    <form action="#">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <input type="text" name="name" placeholder="Your Name *">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="email" name="email" placeholder="Your Email *">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="subject" placeholder="Your Subject *">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="phone" placeholder="Your Phone">
+                                            </div>
+                                        </div>
+                                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                        <button type="submit" class="btn btn-primary">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    </script>
+
+
+</body>
+
+</html>
